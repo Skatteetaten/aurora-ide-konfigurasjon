@@ -55,7 +55,7 @@
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <editorconfig>
-    <option name="ENABLED" value="false" />
+    <option name="ENABLED" value="true" />
   </editorconfig>
   <codeStyleSettings language="CSS">
     <indentOptions>
@@ -123,3 +123,4 @@
     </indentOptions>
   </codeStyleSettings>
 </code_scheme>
+

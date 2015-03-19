@@ -18,3 +18,9 @@ ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
 3 Restart IntelliJ og velg Aurora_CodeStyle.
 
 # Eclipse
+
+# Editorconfig
+
+Filen er kun ment som et eksempel. Editorconfig kan brukes på JavaScript-prosjekter 
+og andre prosjekter hvor det ikke er naturlig å bruke Eclipse (som ikke støtter 
+editorconfig, men er likevel Skatteetatens foretrukne IDE)
