@@ -1,7 +1,8 @@
 # Hvordan bruke?
 
-
 # Hvordan få inn endringer?
+
+Lag en branch, endre, send en pull-request.
 
 # IntelliJ
 
