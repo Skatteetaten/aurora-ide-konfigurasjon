@@ -1,0 +1,14 @@
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+
