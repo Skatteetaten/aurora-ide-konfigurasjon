@@ -19,6 +19,15 @@
   </option>
   <option name="IMPORT_LAYOUT_TABLE">
     <value>
+      <emptyLine />
+      <package name="java" withSubpackages="true" static="true" />
+      <emptyLine />
+      <package name="javax" withSubpackages="true" static="true" />
+      <emptyLine />
+      <package name="org" withSubpackages="true" static="true" />
+      <emptyLine />
+      <package name="com" withSubpackages="true" static="true" />
+      <emptyLine />
       <package name="" withSubpackages="true" static="true" />
       <emptyLine />
       <package name="java" withSubpackages="true" static="false" />
@@ -38,6 +47,15 @@
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
     <option name="IMPORT_LAYOUT_TABLE">
       <value>
+        <emptyLine />
+        <package name="java" withSubpackages="true" static="true" />
+        <emptyLine />
+        <package name="javax" withSubpackages="true" static="true" />
+        <emptyLine />
+        <package name="org" withSubpackages="true" static="true" />
+        <emptyLine />
+        <package name="com" withSubpackages="true" static="true" />
+        <emptyLine />
         <package name="" withSubpackages="true" static="true" />
         <emptyLine />
         <package name="java" withSubpackages="true" static="false" />
