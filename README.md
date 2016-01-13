@@ -7,11 +7,13 @@ Lag en branch, endre, send en pull-request.
 # IntelliJ
 
 1. Git clone dette repo:
-  <pre><code>
+
+  ```
   git clone https://\<bruker\>@aurora/git/scm/auv/aurora-ide-konfigurasjon.git
-  </code></pre>       
-1. Lag en symlink til kodestil-filen:
-  <pre><code>
+  ```
+2. Lag en symlink til kodestil-filen:
+
+  ```
   #Intellij 14
   cd ~/.IntelliJIdea14/config/codestyles
   ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
@@ -19,8 +21,9 @@ Lag en branch, endre, send en pull-request.
   #Intellij 15
   cd ~/.IntelliJIdea15/config/codestyles
   ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
-  </code></pre>       
-1. Restart IntelliJ og velg Aurora_CodeStyle.
+  ```
+
+3. Restart IntelliJ og velg Aurora_CodeStyle.
 
 # Eclipse
 
