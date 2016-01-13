@@ -13,16 +13,15 @@ Lag en branch, endre, send en pull-request.
   ```
 
 2. Lag en symlink til kodestil-filen:
+    * IntelliJ 14  
 
-  ```
-  #Intellij 14
-  cd ~/.IntelliJIdea14/config/codestyles
-  ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
-  .
-  #Intellij 15
-  cd ~/.IntelliJIdea15/config/codestyles
-  ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
-  ```
+        cd ~/.IntelliJIdea14/config/codestyles
+        ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
+
+    * IntelliJ 15
+
+        cd ~/.IntelliJIdea15/config/codestyles
+        ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
 
 3. Restart IntelliJ og velg Aurora_CodeStyle.
 
