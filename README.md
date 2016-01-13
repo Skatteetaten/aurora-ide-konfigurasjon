@@ -11,6 +11,7 @@ Lag en branch, endre, send en pull-request.
   ```
   git clone https://\<bruker\>@aurora/git/scm/auv/aurora-ide-konfigurasjon.git
   ```
+
 2. Lag en symlink til kodestil-filen:
 
   ```
