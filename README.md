@@ -7,6 +7,7 @@ Lag en branch, endre, send en pull-request.
 # IntelliJ
 
 1. Git clone dette repo:
+
     ```
     git clone https://\<bruker\>@aurora/git/scm/auv/aurora-ide-konfigurasjon.git
     ```
