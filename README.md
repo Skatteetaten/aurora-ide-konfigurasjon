@@ -14,8 +14,10 @@ Lag en branch, endre, send en pull-request.
 1. Lag en symlink til kodestil-filen:
     * IntelliJ 14  
 
-        cd ~/.IntelliJIdea14/config/codestyles
-        ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
+       ```
+       cd ~/.IntelliJIdea14/config/codestyles
+       ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
+       ```
 
     * IntelliJ 15
 
