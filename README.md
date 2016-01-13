@@ -8,9 +8,7 @@ Lag en branch, endre, send en pull-request.
 
 1. Git clone dette repo:
 
-<pre></code>
     git clone https://\<bruker\>@aurora/git/scm/auv/aurora-ide-konfigurasjon.git
-</code></pre>
 
 1. Lag en symlink til kodestil-filen:
     * IntelliJ 14  
