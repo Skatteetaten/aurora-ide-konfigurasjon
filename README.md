@@ -6,22 +6,28 @@ Lag en branch, endre, send en pull-request.
 
 # IntelliJ
 
-1 Git clone dette repo:
+1. Git clone dette repo:
 
-git clone https://\<bruker\>@aurora/git/scm/auv/aurora-ide-konfigurasjon.git
+    ```
+    git clone https://\<bruker\>@aurora/git/scm/auv/aurora-ide-konfigurasjon.git
+    ```
+1. Lag en symlink til kodestil-filen:
+    * IntelliJ 14  
 
-2 Lag en symlink til kodestil-filen:
+        cd ~/.IntelliJIdea14/config/codestyles
+        ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
+        
+    * IntelliJ 15
 
-cd ~/.IntelliJIdea14/config/codestyles
+        cd ~/.IntelliJIdea15/config/codestyles
+        ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
 
-ln -s \<stil-til-dette-repo\>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
-
-3 Restart IntelliJ og velg Aurora_CodeStyle.
+1. Restart IntelliJ og velg Aurora_CodeStyle.
 
 # Eclipse
 
 # Editorconfig
 
-Filen er kun ment som et eksempel. Editorconfig kan brukes på JavaScript-prosjekter 
-og andre prosjekter hvor det ikke er naturlig å bruke Eclipse (som ikke støtter 
+Filen er kun ment som et eksempel. Editorconfig kan brukes på JavaScript-prosjekter
+og andre prosjekter hvor det ikke er naturlig å bruke Eclipse (som ikke støtter
 editorconfig, men er likevel Skatteetatens foretrukne IDE)
