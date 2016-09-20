@@ -17,15 +17,14 @@ Lag en branch, endre, send en pull-request.
     * IntelliJ 2016.1: `cd ~/.IntelliJIdea2016.1/config`  
     * IntelliJ 2016.2: `cd ~/.IdeaIC2016.2/config`  
     
-    Kjør:
+3. Kjør:
     ```
     mkdir codestyles  
     cd codesyles
     ln -s <sti-til-lokalt-klonet-aurora-ide-konfigurasjon-repo>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
     ```
 
-
-3. Restart IntelliJ og velg Aurora_CodeStyle (File -> Settings -> Editor -> Code Style -> Scheme: Aurora_CodeStyle)
+4. Restart IntelliJ og velg Aurora_CodeStyle (File -> Settings -> Editor -> Code Style -> Scheme: Aurora_CodeStyle)
 
 # Eclipse
 
