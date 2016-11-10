@@ -18,8 +18,8 @@ updateSymlink() {
   echo "Symlink laget/oppdatert for $ideaDir"
 
 }
-cd ~
-find -maxdepth 1 -type d -name '.IntelliJIdea*' | while read file; do updateSymlink "$file"; done
-find -maxdepth 1 -type d -name '.Idea*' | while read file; do updateSymlink "$file"; done
-cd - &> /dev/null
+
+find ~ -maxdepth 1 -type d -name '.IntelliJIdea*' | while read file; do updateSymlink "$file"; done
+find ~ -maxdepth 1 -type d -name '.Idea*' | while read file; do updateSymlink "$file"; done
+
 
