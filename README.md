@@ -11,21 +11,8 @@ Lag en branch, endre, send en pull-request.
     ```
     git clone https://\<bruker\>@aurora/git/scm/auv/aurora-ide-konfigurasjon.git
     ```
-2. Lag en symlink til kodestil-filen:
-    * IntelliJ 2016.3: `cd ~/.IntelliJIdea2016.3/config`  
-    * IntelliJ 2016.2: `cd ~/.IntelliJIdea2016.2/config`  
-    * IntelliJ 2016.1: `cd ~/.IntelliJIdea2016.1/config`  
-    * IntelliJ 15:     `cd ~/.IntelliJIdea15/config`
-    * IntelliJ 14:     `cd ~/.IntelliJIdea14/config`
-    
-3. Kjør:
-    ```
-    mkdir codestyles  
-    cd codesyles
-    ln -s <sti-til-lokalt-klonet-aurora-ide-konfigurasjon-repo>/intellij/Aurora_CodeStyle.xml Aurora_CodeStyle.xml
-    ```
-
-4. Restart IntelliJ og velg Aurora_CodeStyle (File -> Settings -> Editor -> Code Style -> Scheme: Aurora_CodeStyle)
+2. Kjør scriptet ``idea.sh``
+3. Restart IntelliJ og velg Aurora_CodeStyle (File -> Settings -> Editor -> Code Style -> Scheme: Aurora_CodeStyle)
 
 # Eclipse
 
