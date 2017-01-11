@@ -42,6 +42,7 @@
       <emptyLine />
     </value>
   </option>
+  <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
   <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <GroovyCodeStyleSettings>
