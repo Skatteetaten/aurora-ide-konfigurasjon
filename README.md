@@ -1,5 +1,7 @@
 # Hvordan bruke?
 
+Dette repo er speilet på github og bitbucket. Gjør du endringer i master venligst push begge plasser. 
+
 # Hvordan få inn endringer?
 
 Lag en branch, endre, send en pull-request.
