@@ -8,13 +8,13 @@ Lag en branch, endre, send en pull-request.
 
 # IntelliJ
 
-1. Git clone dette repo:
+1. Clone dette repo:
 
     ```
-    git clone https://\<bruker\>@aurora/git/scm/auv/aurora-ide-konfigurasjon.git
+    git clone https://<bruker>@git.aurora.skead.no/scm/auv/aurora-ide-konfigurasjon.git
     ```
-2. Kjør scriptet ``idea.sh``
-3. Restart IntelliJ og velg Aurora_CodeStyle (File -> Settings -> Editor -> Code Style -> Scheme: Aurora_CodeStyle)
+2. Kjør scriptet ``./idea.sh``
+3. Restart IntelliJ og velg Aurora_CodeStyle (File -> Settings -> Editor -> Code Style -> Scheme: Aurora-CodeStyle)
 
 # Intellij - Inspections
 Filen "intellij_inspections.xml" inneholder konfigurasjon for å slå av noen av Groovy inspections som ikke er så nyttige
