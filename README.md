@@ -1,3 +1,6 @@
+# Hvorfor?
+For bakgrunn, se https://wiki.sits.no/display/AURORA/Skatteetatens+kodestandard+for+Java
+
 # Hvordan bruke?
 
 Dette repo er speilet på github og bitbucket. Gjør du endringer i master venligst push begge plasser. 
@@ -6,17 +9,21 @@ Dette repo er speilet på github og bitbucket. Gjør du endringer i master venli
 
 Lag en branch, endre, send en pull-request.
 
-# IntelliJ
+# IntelliJ - Kodestandard
 
 1. Clone dette repo:
 
     ```
     git clone https://<bruker>@git.aurora.skead.no/scm/auv/aurora-ide-konfigurasjon.git
     ```
-2. Kjør scriptet ``./idea.sh``
+2. Kjør script for å få lenke til Aurora_CodeStyle.xml 
+    ```
+    cd aurora-ide-konfigurasjon
+    source ./idea.sh
+    ```
 3. Restart IntelliJ og velg Aurora_CodeStyle (File -> Settings -> Editor -> Code Style -> Scheme: Aurora-CodeStyle)
 
-# Intellij - Inspections
+## IntelliJ - Inspections
 Filen "intellij_inspections.xml" inneholder konfigurasjon for å slå av noen av Groovy inspections som ikke er så nyttige
 i en en test-context. Da blir man heller oppmerksom på de warnings som virkelig betyr noe.
 
@@ -24,6 +31,7 @@ I Intellij gå til File->Settings->Editor->Inspections. Trykk så på tannhjulet
 Velg deretter filen "intellij_inspections.xml" 
 
 # Eclipse
+Se https://wiki.sits.no/display/AURORA/Retningslinje+-+Eclipse+IDE+-+Konfigurering+av+workspace
 
 # Editorconfig
 
