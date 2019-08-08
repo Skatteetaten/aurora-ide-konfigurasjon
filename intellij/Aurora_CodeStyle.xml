@@ -1,15 +1,10 @@
-<code_scheme name="Aurora-CodeStyle">
+<code_scheme name="Aurora-CodeStyle" version="173">
   <option name="AUTODETECT_INDENTS" value="false" />
   <option name="OTHER_INDENT_OPTIONS">
     <value>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
-      <option name="USE_TAB_CHARACTER" value="false" />
-      <option name="SMART_TABS" value="false" />
-      <option name="LABEL_INDENT_SIZE" value="0" />
-      <option name="LABEL_INDENT_ABSOLUTE" value="false" />
-      <option name="USE_RELATIVE_INDENTS" value="false" />
     </value>
   </option>
   <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
@@ -79,6 +74,39 @@
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
   </JSCodeStyleSettings>
+  <JavaCodeStyleSettings>
+    <option name="ANNOTATION_PARAMETER_WRAP" value="1" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
+    <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+      <value />
+    </option>
+    <option name="IMPORT_LAYOUT_TABLE">
+      <value>
+        <emptyLine />
+        <package name="java" withSubpackages="true" static="true" />
+        <emptyLine />
+        <package name="javax" withSubpackages="true" static="true" />
+        <emptyLine />
+        <package name="org" withSubpackages="true" static="true" />
+        <emptyLine />
+        <package name="com" withSubpackages="true" static="true" />
+        <emptyLine />
+        <package name="" withSubpackages="true" static="true" />
+        <emptyLine />
+        <package name="java" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="javax" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="org" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="com" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="" withSubpackages="true" static="false" />
+        <emptyLine />
+      </value>
+    </option>
+  </JavaCodeStyleSettings>
   <JetCodeStyleSettings>
     <option name="PACKAGES_TO_USE_STAR_IMPORTS">
       <value>
@@ -89,19 +117,6 @@
     <option name="NAME_COUNT_TO_USE_STAR_IMPORT_FOR_MEMBERS" value="2147483647" />
     <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
   </JetCodeStyleSettings>
-  <codeStyleSettings language="kotlin">
-    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
-    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
-    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
-    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
-    <indentOptions>
-      <option name="CONTINUATION_INDENT_SIZE" value="4" />
-    </indentOptions>
-  </codeStyleSettings>
-  <JavaCodeStyleSettings>
-    <option name="ANNOTATION_PARAMETER_WRAP" value="1" />
-  </JavaCodeStyleSettings>
   <MarkdownNavigatorCodeStyleSettings>
     <option name="RIGHT_MARGIN" value="72" />
   </MarkdownNavigatorCodeStyleSettings>
@@ -116,6 +131,16 @@
   <codeStyleSettings language="CSS">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="DB2">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Derby">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="Groovy">
@@ -146,6 +171,16 @@
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
       <option name="LABEL_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="H2">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HSQLDB">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="HTML">
@@ -212,6 +247,21 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="MySQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Oracle">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="PostgreSQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="SASS">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
@@ -225,6 +275,21 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="SQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="SQLite">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Sybase">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="TSQL">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
     </indentOptions>
@@ -246,6 +311,16 @@
     <arrangement>
       <rules />
     </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="kotlin">
+    <option name="CODE_STYLE_DEFAULTS" value="KOTLIN_OFFICIAL" />
+    <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="yaml">
     <indentOptions>
