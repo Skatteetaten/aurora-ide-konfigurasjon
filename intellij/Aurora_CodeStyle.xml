@@ -84,16 +84,18 @@
     <option name="IMPORT_LAYOUT_TABLE">
       <value>
         <emptyLine />
+        <package name="com" withSubpackages="true" static="true" />
         <package name="java" withSubpackages="true" static="true" />
         <package name="javax" withSubpackages="true" static="true" />
         <package name="org" withSubpackages="true" static="true" />
-        <package name="com" withSubpackages="true" static="true" />
         <package name="" withSubpackages="true" static="true" />
         <emptyLine />
         <package name="java" withSubpackages="true" static="false" />
         <emptyLine />
         <package name="javax" withSubpackages="true" static="false" />
+        <emptyLine />
         <package name="org" withSubpackages="true" static="false" />
+        <emptyLine />
         <package name="com" withSubpackages="true" static="false" />
         <emptyLine />
         <package name="" withSubpackages="true" static="false" />
