@@ -19,7 +19,7 @@ Lag en branch, endre, send en pull-request.
 2. Kjør script for å få lenke til Aurora_CodeStyle.xml 
     ```
     cd aurora-ide-konfigurasjon
-    source ./idea.sh
+    ./idea.sh
     ```
 3. Restart IntelliJ og velg Aurora_CodeStyle (File -> Settings -> Editor -> Code Style -> Scheme: Aurora-CodeStyle)
 
