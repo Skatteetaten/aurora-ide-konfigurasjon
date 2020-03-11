@@ -1,5 +1,5 @@
 # Hvorfor?
-For bakgrunn, se https://wiki.sits.no/display/AURORA/Skatteetatens+kodestandard+for+Java
+For bakgrunn, se [Skatteetatens kodestandard for Java & Kotlin](https://wiki.sits.no/pages/viewpage.action?pageId=52957964)
 
 # Hvordan bruke?
 
@@ -31,7 +31,7 @@ I Intellij gå til File->Settings->Editor->Inspections. Trykk så på tannhjulet
 Velg deretter filen "intellij_inspections.xml" 
 
 # Eclipse
-Se https://wiki.sits.no/display/AURORA/Retningslinje+-+Eclipse+IDE+-+Konfigurering+av+workspace
+Se [Eclipse IDE - Konfigurering av workspace](https://wiki.sits.no/display/AURORA/Eclipse+IDE+-+Konfigurering+av+workspace)
 
 # Editorconfig
 
