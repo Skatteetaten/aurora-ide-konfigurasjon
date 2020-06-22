@@ -4,8 +4,16 @@ pushd `dirname $0` > /dev/null
 echo "Oppdaterer fra git"
 git pull
 
-styleLocation=$(readlink -f intellij/Aurora_CodeStyle.xml)
-scriptLoc=$(readlink -f idea-config.sh)
+
+os=`uname`
+if [ "$os" == "Darwin" ]; then
+    readlinkplatform="greadlink"
+else
+    readlinkplatform="readlink"
+fi
+
+styleLocation=$($readlinkplatform -f intellij/Aurora_CodeStyle.xml)
+scriptLoc=$($readlinkplatform -f idea-config.sh)
 
 updateSymlink() {
   ideaDir=$1
