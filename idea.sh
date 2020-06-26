@@ -17,12 +17,11 @@ styleLocation=$($readlinkplatform -f intellij/Aurora_CodeStyle.xml)
 updateSymlink() {
   ideaDir=$1
 
-  codestyleDir=$ideaDir/config/codestyles
-  linkName=$codestyleDir/Aurora_CodeStyle.xml
-
   mkdir -p $ideaDir/config/codestyles
+  mkdir -p $ideaDir/codestyles
 
-  ln -sf $styleLocation $linkName
+  ln -sf $styleLocation "$ideaDir/config/codestyles/Aurora_CodeStyle.xml"
+  ln -sf $styleLocation "$ideaDir/codestyles/Aurora_CodeStyle2.xml"
   echo "Symlink laget/oppdatert for $ideaDir"
 }
 
