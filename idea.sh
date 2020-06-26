@@ -13,7 +13,6 @@ else
 fi
 
 styleLocation=$($readlinkplatform -f intellij/Aurora_CodeStyle.xml)
-scriptLoc=$($readlinkplatform -f idea-config.sh)
 
 updateSymlink() {
   ideaDir=$1
