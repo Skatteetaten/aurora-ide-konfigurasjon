@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 pushd `dirname $0` > /dev/null
-echo "Oppdaterer fra git"
+echo "Oppdaterer aurora-ide-konfigurasjon fra git"
 git pull
 
 
