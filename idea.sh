@@ -21,7 +21,7 @@ updateSymlink() {
   mkdir -p $ideaDir/codestyles
 
   ln -sf $styleLocation "$ideaDir/config/codestyles/Aurora_CodeStyle.xml"
-  ln -sf $styleLocation "$ideaDir/codestyles/Aurora_CodeStyle2.xml"
+  ln -sf $styleLocation "$ideaDir/codestyles/Aurora_CodeStyle.xml"
   echo "Symlink laget/oppdatert for $ideaDir"
 }
 
