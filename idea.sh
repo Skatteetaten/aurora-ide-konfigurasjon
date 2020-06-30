@@ -28,7 +28,7 @@ updateSymlink() {
 find ~ -maxdepth 1 -type d -name '.IntelliJIdea*' | while read file; do updateSymlink "$file"; done
 find ~ -maxdepth 1 -type d -name '.Idea*' | while read file; do updateSymlink "$file"; done
 
-find ~/Library/ApplicationSupport/Jetbrains -maxdepth 1 -type d -name 'IntelliJIdea*'| while read file; do updateSymlink "$file"; done
-find ~/Library/ApplicationSupport/Jetbrains -maxdepth 1 -type d -name 'Idea*'| while read file; do updateSymlink "$file"; done
+find ~/Library/ApplicationSupport/Jetbrains -maxdepth 1 -type d -name 'IntelliJIdea*' 2> /dev/null | while read file; do updateSymlink "$file"; done
+find ~/Library/ApplicationSupport/Jetbrains -maxdepth 1 -type d -name 'Idea*' 2> /dev/null | while read file; do updateSymlink "$file"; done
 
 popd > /dev/null
