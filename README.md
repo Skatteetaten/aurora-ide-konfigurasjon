@@ -11,10 +11,10 @@ Lag en branch, endre, send en pull-request.
 
 # IntelliJ - Kodestandard
 
-1. Clone dette repo:
+1. Clone repo:
 
     ```
-    git clone https://<bruker>@git.aurora.skead.no/scm/auv/aurora-ide-konfigurasjon.git
+    git clone https://$USER@git.aurora.skead.no/scm/auv/aurora-ide-konfigurasjon.git
     ```
 2. Kjør script for å få lenke til Aurora_CodeStyle.xml 
     ```
